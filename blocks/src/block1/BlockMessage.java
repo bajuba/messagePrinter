@@ -40,7 +40,6 @@ class BlockMessage {
 	         "     \n"+
 	         "   ? \n";
 	}
-<<<<<<< HEAD
 	public String pLetter()
 	  {
 	    return "   pppppp    \n"+
@@ -66,8 +65,7 @@ class BlockMessage {
 				 " rr     rr    \n"+
 				 " rr     rr    \n";
 	  }
-	}
-=======
+	
 	  public String blockM(){
 		  return
 				  "M       M\n"+
@@ -92,8 +90,7 @@ class BlockMessage {
 				  "O   O\n"+
 				  " OOO\n";
 	  }
->>>>>>> dba8a60617a046b8f57714e848211540eeebbe73
-}
+
 public String blockJ(){
     return
         "JJJJJ\n"+
