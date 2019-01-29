@@ -39,6 +39,33 @@ class BlockMessage {
 	         "   ? \n"+
 	         "     \n"+
 	         "   ? \n";
+	public String D()
+	{
+ 	  return 
+	 "  DDDDD    \n"+
+         "  D    D   \n"+
+         "  D    D   \n"+
+         "  D    D   \n"+
+         "  DDDDD    \n";
+	} 
+	public String E()
+	{
+  	  return 
+	 "  EEEEEE   \n"+
+         "  E        \n"+
+         "  EEEEEE   \n"+
+         "  E        \n"+
+         "  EEEEEE   \n";
+	} 
+	public String F()
+	{
+  	  return 
+	 "  FFFFFFF  \n"+
+         "  F        \n"+
+         "  FFFFFF   \n"+
+         "  F        \n"+
+         "  F        \n";
+	} 
 	}
 
 
@@ -117,6 +144,23 @@ class BlockMessage {
 				  "O   O\n"+
 				  " OOO\n";
 	  }
+
+	  public String Y()
+	  {
+	    return "  Y    Y   \n"+
+	           "   Y  Y    \n"+
+	           "    Y      \n"+
+	           "    Y      \n"+
+	           "    Y      \n";
+	  } 
+	  public String Z()
+	  {
+	    return "  ZZZZZ \n"+
+	           "     Z  \n"+
+	           "    Z   \n"+
+	           "   Z    \n"+
+	           "  ZZZZZ \n";
+	  } 
 
 }
 public String blockJ(){
@@ -403,5 +447,5 @@ public String blockJ(){
 		ret += "ZZZZZ\n";
 		return ret;
 	}
-  
+ 
 }
