@@ -41,6 +41,7 @@ class BlockMessage {
 	         "   ? \n";
 	}
 
+
 	public String vendeta() {
 		return "VVVVV \n"
 				+" \n"
@@ -63,6 +64,34 @@ class BlockMessage {
 				+ "XXXXX \n";
 	}
 	
+
+
+	public String pLetter()
+	  {
+	    return "   pppppp    \n"+
+	           "   ppp   p \n"+
+	           "   ppp   p \n"+
+	           "   pppppp       \n"+
+	           "   ppp   \n";
+	  } 
+	  public String qLetter()
+	  {
+		  return "   qqqqqq    \n"+ 
+				 " qq      qq  \n"+
+				 " qq   qq qq  \n"+
+				 " qq    qqq   \n"+
+				 "   qqqqq  q  \n";
+	  }
+	  public String rLetter()
+	  {
+		  return " rrrrrrrrr   \n"+
+				 " rr      rr  \n"+
+				 " rr     rrr  \n"+
+				 " rrrrrrrr    \n"+
+				 " rr     rr    \n"+
+				 " rr     rr    \n";
+	  }
+	}
 
 	  public String blockM(){
 		  return
@@ -88,5 +117,31 @@ class BlockMessage {
 				  "O   O\n"+
 				  " OOO\n";
 	  }
+
+}
+public String blockJ(){
+    return
+        "JJJJJ\n"+
+        "   J  \n"+
+        "   J \n"+
+        "J  J \n"+
+        "JJJJ \n";
+  }
+  public String blockK(){
+    return
+      "K   K\n"+ 
+      "K KK \n"+
+      "KK   \n"+
+      "K KK \n"+
+      "K   K\n";
+  }
+  public String blockL(){
+    return
+      "L    \n"+
+      "L    \n"+
+      "L    \n"+
+      "L    \n"+
+      "LLLLL\n";
+  }
 
 }
