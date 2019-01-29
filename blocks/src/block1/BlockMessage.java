@@ -41,3 +41,28 @@ class BlockMessage {
 	         "   ? \n";
 	}
 }
+public String blockJ(){
+    return
+        "JJJJJ\n"+
+        "   J  \n"+
+        "   J \n"+
+        "J  J \n"+
+        "JJJJ \n";
+  }
+  public String blockK(){
+    return
+      "K   K\n"+ 
+      "K KK \n"+
+      "KK   \n"+
+      "K KK \n"+
+      "K   K\n";
+  }
+  public String blockL(){
+    return
+      "L    \n"+
+      "L    \n"+
+      "L    \n"+
+      "L    \n"+
+      "LLLLL\n";
+  }
+}
