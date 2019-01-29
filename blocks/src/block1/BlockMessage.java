@@ -40,4 +40,26 @@ class BlockMessage {
 	         "     \n"+
 	         "   ? \n";
 	}
+	public String vendeta() {
+		return "VVVVV \n"
+				+" \n"
+				+ "VVVVV \n"
+				+" \n"
+				+ "VVVVV \n";
+	}
+	public String whyMe() {
+		return "WWWWW \n"
+				+ " \n"
+				+ "WWWWW \n"
+				+ " \n"
+				+ "WWWWW \n";
+	}
+	public String xylophone() {
+		return "XXXXX \n"
+				+ " \n"
+				+ "XXXXX \n"
+				+ " \n"
+				+ "XXXXX \n";
+	}
+	
 }
