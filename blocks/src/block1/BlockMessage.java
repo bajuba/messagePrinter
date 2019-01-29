@@ -16,6 +16,7 @@ class BlockMessage {
 	  this.name = name;
 	  this.message = message;
 	}
+	
 	public String exclamation()
 	{
 	  return "  !  \n"+
@@ -40,7 +41,30 @@ class BlockMessage {
 	         "     \n"+
 	         "   ? \n";
 	}
-<<<<<<< HEAD
+	public String aLetter()
+	  {
+		  return "     AA     \n"+ 
+				 "    A  A    \n"+
+				 "   AAAAAA   \n"+
+				 "  A      A  \n"+
+				 " A        A \n";
+	  }
+	public String bLetter()
+	  {
+		  return "BBBBB      \n"+ 
+				 "B    B     \n"+
+				 "BBBBB      \n"+
+				 "B    B     \n"+
+				 "BBBBB      \n";
+	  }
+	public String cLetter()
+	  {
+		  return "  CCCC    \n"+ 
+				 " C        \n"+
+				 "C         \n"+
+				 " C        \n"+
+				 "  CCCC    \n";
+	  }
 	public String pLetter()
 	  {
 	    return "   pppppp    \n"+
@@ -67,7 +91,6 @@ class BlockMessage {
 				 " rr     rr    \n";
 	  }
 	}
-=======
 	  public String blockM(){
 		  return
 				  "M       M\n"+
@@ -92,7 +115,6 @@ class BlockMessage {
 				  "O   O\n"+
 				  " OOO\n";
 	  }
->>>>>>> dba8a60617a046b8f57714e848211540eeebbe73
 }
 public String blockJ(){
     return
