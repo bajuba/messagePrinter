@@ -10,72 +10,43 @@ import blocks.BlockMessage;
 //allow a message to be printed normally, and with block letter
 //write a method for each letter
 public class Main {
-
   public static void main(String[] args) {
     BlockMessage myMessage = new BlockMessage("first","!");
-    //BlockMessage myMessage = new BlockMessage("first","Y");
+    BlockMessage MyMessage = new BlockMessage("first","Y");
     BlockMessage myMessage2 = new BlockMessage("first","Z");
-    System.out.println(myMessage.exclamation());
-    System.out.println(myMessage.period());
-    System.out.println(myMessage.question());
-
+    
 
     System.out.println(myMessage.a());
     System.out.println(myMessage.b());
-    //print your letters here
-
+    System.out.println(myMessage.c());
+    System.out.println(myMessage.d());
+    System.out.println(myMessage.e());
+    System.out.println(myMessage.f());
+    System.out.println(myMessage.g());
+    System.out.println(myMessage.h());
+    System.out.println(myMessage.i());
+    System.out.println(myMessage.j());
+    System.out.println(myMessage.k());
+    System.out.println(myMessage.l());
+    System.out.println(myMessage.m());
+	System.out.println(myMessage.n());
+	System.out.println(myMessage.o());
     System.out.println(myMessage.p());
     System.out.println(myMessage.q());
     System.out.println(myMessage.r());
-
-	System.out.println(myMessage.d());
-	System.out.println(myMessage.e());
-	System.out.println(myMessage.f());
-
+    System.out.println(myMessage.s());
+    System.out.println(myMessage.t());
+    System.out.println(myMessage.u());
     System.out.println(myMessage.v());
     System.out.println(myMessage.w());
     System.out.println(myMessage.x());
-
-	System.out.println(myMessage.d());
-	System.out.println(myMessage.e());
-	System.out.println(myMessage.f());
-
     System.out.println(myMessage.y());
-    System.out.println(myMessage2.z());
-
-
-    System.out.println(myMessage.vendeta());
-	System.out.println(myMessage.whyMe());
-	System.out.println(myMessage.xylophone());
+    System.out.println(myMessage.z());
+	
+	System.out.println(myMessage.exclamation());
+    System.out.println(myMessage.period());
+    System.out.println(myMessage.question());
+    
 }
-	public static void main(String[] args) {
-		BlockMessage myMessage = new BlockMessage("first", "!");
-		// BlockMessage myMessage = new BlockMessage("first","Y");
-		BlockMessage myMessage2 = new BlockMessage("first", "Z");
-		System.out.println(myMessage.exclamation());
-		System.out.println(myMessage.period());
-		System.out.println(myMessage.question());
-
-		System.out.println(myMessage.a());
-		System.out.println(myMessage.b());
-		// print your letters here
-		System.out.println(myMessage.p());
-		System.out.println(myMessage.q());
-		System.out.println(myMessage.r());
-
-		System.out.println(myMessage.d());
-		System.out.println(myMessage.e());
-		System.out.println(myMessage.f());
-		System.out.println(myMessage.v());
-		System.out.println(myMessage.w());
-		System.out.println(myMessage.x());
-
-		System.out.println(myMessage.d());
-		System.out.println(myMessage.e());
-		System.out.println(myMessage.f());
-
-		System.out.println(myMessage.y());
-		System.out.println(myMessage2.z());
-	}
 
 }

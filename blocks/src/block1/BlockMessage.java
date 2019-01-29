@@ -13,11 +13,9 @@ class BlockMessage {
 	private String message;
 
 	public BlockMessage(String name, String message) {
-
 		this.name = name;
 		this.message = message;
 	}
-
 
 	public String exclamation() {
 		return "  !  \n" + "  !  \n" + "  !  \n" + "     \n" + "  !  \n";
@@ -27,9 +25,15 @@ class BlockMessage {
 		return "     \n" + "     \n" + "     \n" + " ... \n" + " ... \n";
 	}
 
-	public String question() {
-		return "  ?? \n" + " ?  ?\n" + "   ? \n" + "     \n" + "   ? \n";
+	public String question()
+	{
+	  return "  ?? \n"+
+	         " ?  ?\n"+
+	         "   ? \n"+
+	         "     \n"+
+	         "   ? \n";
 	}
+	
 
 	public String a() {
 		String ret = "";
@@ -43,21 +47,21 @@ class BlockMessage {
 
 	public String b() {
 		String ret = "";
-		ret += "bbbb \n";
-		ret += "b   b\n";
-		ret += "bbbb \n";
-		ret += "b   b\n";
-		ret += "bbbb \n";
+		ret += "BBBB \n";
+		ret += "B   B\n";
+		ret += "BBBB \n";
+		ret += "B   B\n";
+		ret += "BBBB \n";
 		return ret;
 	}
 
 	public String c() {
 		String ret = "";
-		ret += "  ccc\n";
-		ret += " c   \n";
-		ret += "c    \n";
-		ret += " c   \n";
-		ret += "  ccc\n";
+		ret += "  CCC\n";
+		ret += " C   \n";
+		ret += "C    \n";
+		ret += " C   \n";
+		ret += "  CCC\n";
 		return ret;
 	}
 
@@ -150,36 +154,30 @@ class BlockMessage {
 		ret += "LLLLL\n";
 		return ret;
 	}
-
 	public String m() {
-		String ret = "";
-		ret += "M   M\n";
-		ret += "M M M\n";
-		ret += "M   M\n";
-		ret += "M   M\n";
-		ret += "M   M\n";
-		return ret;
-	}
+		return 	   "M     M\n"+
+				   "M M M M\n"+
+				   "M  M  M\n"+ 
+				   "M     M\n"+ 
+				   "M     M\n";
+		}
 
-	public String n() {
-		String ret = "";
-		ret += "N   N\n";
-		ret += "NN  N\n";
-		ret += "N N N\n";
-		ret += "N  NN\n";
-		ret += "N   N\n";
-		return ret;
-	}
+		public String n() {
+			return  "N   N\n" +
+		            "NN  N\n" +
+					"N N N\n" +
+		            "N  NN\n" +
+					"N   N\n";
 
-	public String o() {
-		String ret = "";
-		ret += "  O  \n";
-		ret += " O O \n";
-		ret += "O   O\n";
-		ret += " O O \n";
-		ret += "  O  \n";
-		return ret;
-	}
+		}
+
+		public String o() {
+			return  " OOO\n" +
+					"O   O\n" +
+					"O   O\n" +
+					"O   O\n" +
+					" OOO\n";
+		}
 
 	public String p() {
 		String ret = "";
