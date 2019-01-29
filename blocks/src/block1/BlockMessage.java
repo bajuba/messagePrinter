@@ -64,4 +64,20 @@ class BlockMessage {
 				  "O   O\n"+
 				  " OOO\n";
 	  }
+	  public String Y()
+	  {
+	    return "  Y    Y   \n"+
+	           "   Y  Y    \n"+
+	           "    Y      \n"+
+	           "    Y      \n"+
+	           "    Y      \n";
+	  } 
+	  public String Z()
+	  {
+	    return "  ZZZZZ \n"+
+	           "     Z  \n"+
+	           "    Z   \n"+
+	           "   Z    \n"+
+	           "  ZZZZZ \n";
+	  } 
 }
