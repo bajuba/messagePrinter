@@ -22,18 +22,15 @@ public class Main {
     System.out.println(myMessage.a());
     System.out.println(myMessage.b());
     //print your letters here
-<<<<<<< HEAD
+
     System.out.println(myMessage.p());
     System.out.println(myMessage.q());
     System.out.println(myMessage.r());
 
-<<<<<<< HEAD
-=======
 	System.out.println(myMessage.d());
 	System.out.println(myMessage.e());
 	System.out.println(myMessage.f());
->>>>>>> f0cdad5503c42dbd69c72eaf86e2028edfb0c3d7
-=======
+
     System.out.println(myMessage.v());
     System.out.println(myMessage.w());
     System.out.println(myMessage.x());
@@ -42,14 +39,10 @@ public class Main {
 	System.out.println(myMessage.e());
 	System.out.println(myMessage.f());
 
-<<<<<<< HEAD
->>>>>>> 25e8b179d447748cc9e52362cdfa785cce60f99f
-=======
     System.out.println(myMessage.y());
     System.out.println(myMessage2.z());
-}
 
->>>>>>> 90ffc35fb4e1aabf7934910b81230322d186b636
+
     System.out.println(myMessage.vendeta());
 	System.out.println(myMessage.whyMe());
 	System.out.println(myMessage.xylophone());
