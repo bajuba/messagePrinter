@@ -12,5 +12,8 @@ public class Main {
     System.out.println(myMessage.exclamation());
     System.out.println(myMessage.period());
     System.out.println(myMessage.question());
-  }
+    System.out.println(myMessage.D());
+    System.out.println(myMessage.E());
+    System.out.println(myMessage.F());
+}
 }

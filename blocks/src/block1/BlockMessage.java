@@ -39,5 +39,32 @@ class BlockMessage {
 	         "   ? \n"+
 	         "     \n"+
 	         "   ? \n";
+	public String D()
+	{
+ 	  return 
+	 "  DDDDD    \n"+
+         "  D    D   \n"+
+         "  D    D   \n"+
+         "  D    D   \n"+
+         "  DDDDD    \n";
+	} 
+	public String E()
+	{
+  	  return 
+	 "  EEEEEE   \n"+
+         "  E        \n"+
+         "  EEEEEE   \n"+
+         "  E        \n"+
+         "  EEEEEE   \n";
+	} 
+	public String F()
+	{
+  	  return 
+	 "  FFFFFFF  \n"+
+         "  F        \n"+
+         "  FFFFFF   \n"+
+         "  F        \n"+
+         "  F        \n";
+	} 
 	}
 }
