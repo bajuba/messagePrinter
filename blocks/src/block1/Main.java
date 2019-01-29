@@ -21,7 +21,16 @@ public class Main {
 
     System.out.println(myMessage.a());
     //print your letters here
+<<<<<<< HEAD
+    System.out.println(myMessage.p());
+    System.out.println(myMessage.q());
+    System.out.println(myMessage.r());
 
+=======
+	System.out.println(myMessage.d());
+	System.out.println(myMessage.e());
+	System.out.println(myMessage.f());
+>>>>>>> f0cdad5503c42dbd69c72eaf86e2028edfb0c3d7
     System.out.println(myMessage.vendeta());
 	System.out.println(myMessage.whyMe());
 	System.out.println(myMessage.xylophone());
