@@ -20,6 +20,7 @@ public class Main {
 
 
     System.out.println(myMessage.a());
+    System.out.println(myMessage.b());
     //print your letters here
 
     System.out.println(myMessage.v());
