@@ -104,7 +104,6 @@ class BlockMessage {
 				+ " rr     rr    \n";
 	}
 
-	}
 
 	public String blockM() {
 		return "M       M\n" + "M M   M M\n" + "M  M M  M\n" + "M   M   M\n" + "M       M\n";
@@ -127,7 +126,6 @@ class BlockMessage {
 		return "  ZZZZZ \n" + "     Z  \n" + "    Z   \n" + "   Z    \n" + "  ZZZZZ \n";
 	}
 
-}
 
 	public String blockJ() {
 		return "JJJJJ\n" + "   J  \n" + "   J \n" + "J  J \n" + "JJJJ \n";
