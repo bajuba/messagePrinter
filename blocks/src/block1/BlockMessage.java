@@ -117,7 +117,7 @@ class BlockMessage {
 				  "O   O\n"+
 				  " OOO\n";
 	  }
-<<<<<<< HEAD
+
 	  public String Y()
 	  {
 	    return "  Y    Y   \n"+
@@ -134,7 +134,6 @@ class BlockMessage {
 	           "   Z    \n"+
 	           "  ZZZZZ \n";
 	  } 
-=======
 
 }
 public String blockJ(){
@@ -162,5 +161,5 @@ public String blockJ(){
       "LLLLL\n";
   }
 
->>>>>>> 59745827f88995fd2d171162caa0dde6849a75d6
+
 }
