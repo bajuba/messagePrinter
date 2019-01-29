@@ -105,18 +105,6 @@ class BlockMessage {
 		return "  ?? \n" + " ?  ?\n" + "   ? \n" + "     \n" + "   ? \n";
 	}
 
-	public String D() {
-		return "  DDDDD    \n" + "  D    D   \n" + "  D    D   \n" + "  D    D   \n" + "  DDDDD    \n";
-	}
-
-	public String E() {
-		return "  EEEEEE   \n" + "  E        \n" + "  EEEEEE   \n" + "  E        \n" + "  EEEEEE   \n";
-	}
-
-	public String F() {
-		return "  FFFFFFF  \n" + "  F        \n" + "  FFFFFF   \n" + "  F        \n" + "  F        \n";
-	}
-
 	public String vendeta() {
 		return "VVVVV \n" + " \n" + "VVVVV \n" + " \n" + "VVVVV \n";
 	}
@@ -128,7 +116,6 @@ class BlockMessage {
 	public String xylophone() {
 		return "XXXXX \n" + " \n" + "XXXXX \n" + " \n" + "XXXXX \n";
 	}
-
 	public String pLetter() {
 		return "   pppppp    \n" + "   ppp   p \n" + "   ppp   p \n" + "   pppppp       \n" + "   ppp   \n";
 	}
@@ -225,21 +212,21 @@ class BlockMessage {
 
 	public String b() {
 		String ret = "";
-		ret += "BBBB \n";
-		ret += "B   B\n";
-		ret += "BBBB \n";
-		ret += "B   B\n";
-		ret += "BBBB \n";
+		ret += "bbbb \n";
+		ret += "b   b\n";
+		ret += "bbbb \n";
+		ret += "b   b\n";
+		ret += "bbbb \n";
 		return ret;
 	}
 
 	public String c() {
 		String ret = "";
-		ret += "  CCC\n";
-		ret += " C   \n";
-		ret += "C    \n";
-		ret += " C   \n";
-		ret += "  CCC\n";
+		ret += "  ccc\n";
+		ret += " c   \n";
+		ret += "c    \n";
+		ret += " c   \n";
+		ret += "  ccc\n";
 		return ret;
 	}
 
