@@ -280,21 +280,21 @@ public String blockJ(){
 
 	public String b() {
 		String ret = "";
-		ret += "BBBB \n";
-		ret += "B   B\n";
-		ret += "BBBB \n";
-		ret += "B   B\n";
-		ret += "BBBB \n";
+		ret += "bbbb \n";
+		ret += "b   b\n";
+		ret += "bbbb \n";
+		ret += "b   b\n";
+		ret += "bbbb \n";
 		return ret;
 	}
 
 	public String c() {
 		String ret = "";
-		ret += "  CCC\n";
-		ret += " C   \n";
-		ret += "C    \n";
-		ret += " C   \n";
-		ret += "  CCC\n";
+		ret += "  ccc\n";
+		ret += " c   \n";
+		ret += "c    \n";
+		ret += " c   \n";
+		ret += "  ccc\n";
 		return ret;
 	}
 
