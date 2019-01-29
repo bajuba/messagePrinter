@@ -31,6 +31,10 @@ public class Main {
 	System.out.println(myMessage.e());
 	System.out.println(myMessage.f());
 
+    System.out.println(myMessage.y());
+    System.out.println(myMessage2.z());
+}
+
     System.out.println(myMessage.vendeta());
 	System.out.println(myMessage.whyMe());
 	System.out.println(myMessage.xylophone());
