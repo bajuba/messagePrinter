@@ -40,6 +40,59 @@ class BlockMessage {
 	         "     \n"+
 	         "   ? \n";
 	}
+
+
+	public String vendeta() {
+		return "VVVVV \n"
+				+" \n"
+				+ "VVVVV \n"
+				+" \n"
+				+ "VVVVV \n";
+	}
+	public String whyMe() {
+		return "WWWWW \n"
+				+ " \n"
+				+ "WWWWW \n"
+				+ " \n"
+				+ "WWWWW \n";
+	}
+	public String xylophone() {
+		return "XXXXX \n"
+				+ " \n"
+				+ "XXXXX \n"
+				+ " \n"
+				+ "XXXXX \n";
+	}
+	
+
+
+	public String pLetter()
+	  {
+	    return "   pppppp    \n"+
+	           "   ppp   p \n"+
+	           "   ppp   p \n"+
+	           "   pppppp       \n"+
+	           "   ppp   \n";
+	  } 
+	  public String qLetter()
+	  {
+		  return "   qqqqqq    \n"+ 
+				 " qq      qq  \n"+
+				 " qq   qq qq  \n"+
+				 " qq    qqq   \n"+
+				 "   qqqqq  q  \n";
+	  }
+	  public String rLetter()
+	  {
+		  return " rrrrrrrrr   \n"+
+				 " rr      rr  \n"+
+				 " rr     rrr  \n"+
+				 " rrrrrrrr    \n"+
+				 " rr     rr    \n"+
+				 " rr     rr    \n";
+	  }
+	}
+
 	  public String blockM(){
 		  return
 				  "M       M\n"+
@@ -64,6 +117,7 @@ class BlockMessage {
 				  "O   O\n"+
 				  " OOO\n";
 	  }
+<<<<<<< HEAD
 	  public String Y()
 	  {
 	    return "  Y    Y   \n"+
@@ -80,4 +134,33 @@ class BlockMessage {
 	           "   Z    \n"+
 	           "  ZZZZZ \n";
 	  } 
+=======
+
+}
+public String blockJ(){
+    return
+        "JJJJJ\n"+
+        "   J  \n"+
+        "   J \n"+
+        "J  J \n"+
+        "JJJJ \n";
+  }
+  public String blockK(){
+    return
+      "K   K\n"+ 
+      "K KK \n"+
+      "KK   \n"+
+      "K KK \n"+
+      "K   K\n";
+  }
+  public String blockL(){
+    return
+      "L    \n"+
+      "L    \n"+
+      "L    \n"+
+      "L    \n"+
+      "LLLLL\n";
+  }
+
+>>>>>>> 59745827f88995fd2d171162caa0dde6849a75d6
 }

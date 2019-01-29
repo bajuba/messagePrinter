@@ -17,8 +17,14 @@ public class Main {
     System.out.println(myMessage.exclamation());
     System.out.println(myMessage.period());
     System.out.println(myMessage.question());
+<<<<<<< HEAD
     System.out.println(myMessage.Y());
     System.out.println(myMessage2.Z());
 	 }
+=======
+    System.out.println(myMessage.vendeta());
+	System.out.println(myMessage.whyMe());
+	System.out.println(myMessage.xylophone());
+>>>>>>> 59745827f88995fd2d171162caa0dde6849a75d6
   }
 }
