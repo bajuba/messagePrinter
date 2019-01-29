@@ -28,8 +28,8 @@ public class Main {
     System.out.println(myMessage.qLetter());
     System.out.println(myMessage.rLetter());
 
-    System.out.println(myMessage.Y());
-    System.out.println(myMessage2.Z());
+    System.out.println(myMessage.y());
+    System.out.println(myMessage2.z());
 	 }
     System.out.println(myMessage.vendeta());
 	System.out.println(myMessage.whyMe());
